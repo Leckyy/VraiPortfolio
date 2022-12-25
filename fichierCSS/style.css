@@ -2539,3 +2539,124 @@ left: 15px;
 
 
 }
+
+
+/* dIAPO PROJET */
+
+@media screen and (max-width: 582px){
+  .dProjetZooDiapo{
+    width: 350px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+}
+
+.dProjetZooDiapo .BasPageProjetDiapo{
+  position: relative;
+  top: 10px;
+ 
+}
+
+.dProjetZooDiapo .TelechargerProjetDiapo{
+  left: 0px;
+}
+
+.dProjetZooDiapo .ApercueProjetDiapo{
+  left: 0px;
+ 
+}
+
+
+/* yUMMI */
+
+
+.dProjetYummiDiapo{
+  width: 350px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+}
+
+.dProjetYummiDiapo img{
+  height: 260px;
+}
+
+.dProjetYummiDiapo .BasPageProjetDiapo{
+position: relative;
+top: 0px;
+}
+
+.dProjetYummiDiapo .TelechargerProjetDiapo{
+left: 0px;
+}
+
+.dProjetYummiDiapo .ApercueProjetDiapo{
+left: 0px;
+
+}
+
+/* gACTI */
+
+.dProjetGactiDiapo{
+  width: 350px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+}
+
+.dProjetGactiDiapo img{
+  height: 260px;
+}
+
+.dProjetGactiDiapo .BasPageProjetDiapo{
+position: relative;
+top: 0px;
+}
+
+.dProjetGactiDiapo .TelechargerProjetDiapo{
+left: 0px;
+}
+
+.dProjetGactiDiapo .ApercueProjetDiapo{
+left: 0px;
+
+}
+
+
+/* Espace commentaire */
+
+
+
+.dProjetEspaceCommentaireDiapo{
+  width: 350px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+}
+
+
+
+.dProjetEspaceCommentaireDiapo .BasPageProjetDiapo{
+position: relative;
+top: 0px;
+}
+
+.dProjetEspaceCommentaireDiapo .TelechargerProjetDiapo{
+left: 0px;
+}
+
+.dProjetEspaceCommentaireDiapo .ApercueProjetDiapo{
+left: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
