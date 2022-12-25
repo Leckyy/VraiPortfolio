@@ -54,18 +54,21 @@ var diapo = 0;
       document.querySelector("body").classList.add("fondbody");
       document.querySelector("nav").classList.add("FondMenu");
       document.querySelector(".acceuilMenu").classList.add("FondMenu");
-    document.querySelector(".acceuilMenu").classList.add("traitBlanc");
-    document.querySelector(".langagesMenu").classList.add("FondMenu");
-    document.querySelector(".langagesMenu").classList.add("traitBlanc");
-    document.querySelector(".projetsMenu").classList.add("FondMenu");
-    document.querySelector(".projetsMenu").classList.add("traitBlanc");
-    document.querySelector(".formationsMenu").classList.add("FondMenu");
-    document.querySelector(".formationsMenu").classList.add("traitBlanc");
-    document.querySelector(".stagesMenu").classList.add("FondMenu");
-    document.querySelector(".stagesMenu").classList.add("traitBlanc");
-    document.querySelector(".veilleMenu").classList.add("FondMenu");
-    document.querySelector(".veilleMenu").classList.add("traitBlanc");
-    document.getElementById('FondCouleur').innerHTML="☀️";
+      document.querySelector(".acceuilMenu").classList.add("traitBlanc");
+      document.querySelector(".langagesMenu").classList.add("FondMenu");
+      document.querySelector(".langagesMenu").classList.add("traitBlanc");
+      document.querySelector(".projetsMenu").classList.add("FondMenu");
+      document.querySelector(".projetsMenu").classList.add("traitBlanc");
+      document.querySelector(".formationsMenu").classList.add("FondMenu");
+      document.querySelector(".formationsMenu").classList.add("traitBlanc");
+      document.querySelector(".stagesMenu").classList.add("FondMenu");
+      document.querySelector(".stagesMenu").classList.add("traitBlanc");
+      document.querySelector(".veilleMenu").classList.add("FondMenu");
+      document.querySelector(".veilleMenu").classList.add("traitBlanc");
+      document.getElementById('FondCouleur').innerHTML="☀️";
+      document.querySelector(".l1").style.background="white";
+      document.querySelector(".l2").style.background="white";
+      document.querySelector(".l3").style.background="white";
       document.getElementById('div1').classList.add("noir");
       document.querySelector(".TitreLangage").classList.add("noir");
       document.querySelector(".TexteLangage").classList.add("noir");
@@ -88,18 +91,21 @@ var diapo = 0;
       document.querySelector("body").classList.remove("fondbody");
       document.querySelector("nav").classList.remove("FondMenu");
       document.querySelector(".acceuilMenu").classList.remove("FondMenu");
-    document.querySelector(".acceuilMenu").classList.remove("traitBlanc");
-    document.querySelector(".langagesMenu").classList.remove("FondMenu");
-    document.querySelector(".langagesMenu").classList.remove("traitBlanc");
-    document.querySelector(".projetsMenu").classList.remove("FondMenu");
-    document.querySelector(".projetsMenu").classList.remove("traitBlanc");
-    document.querySelector(".formationsMenu").classList.remove("FondMenu");
-    document.querySelector(".formationsMenu").classList.remove("traitBlanc");
-    document.querySelector(".stagesMenu").classList.remove("FondMenu");
-    document.querySelector(".stagesMenu").classList.remove("traitBlanc");
-    document.querySelector(".veilleMenu").classList.remove("FondMenu");
-    document.querySelector(".veilleMenu").classList.remove("traitBlanc");
-    document.getElementById('FondCouleur').innerHTML="🌙";
+      document.querySelector(".acceuilMenu").classList.remove("traitBlanc");
+      document.querySelector(".langagesMenu").classList.remove("FondMenu");
+      document.querySelector(".langagesMenu").classList.remove("traitBlanc");
+      document.querySelector(".projetsMenu").classList.remove("FondMenu");
+      document.querySelector(".projetsMenu").classList.remove("traitBlanc");
+      document.querySelector(".formationsMenu").classList.remove("FondMenu");
+      document.querySelector(".formationsMenu").classList.remove("traitBlanc");
+      document.querySelector(".stagesMenu").classList.remove("FondMenu");
+      document.querySelector(".stagesMenu").classList.remove("traitBlanc");
+      document.querySelector(".veilleMenu").classList.remove("FondMenu");
+      document.querySelector(".veilleMenu").classList.remove("traitBlanc");
+      document.getElementById('FondCouleur').innerHTML="🌙";
+      document.querySelector(".l1").style.background="black";
+      document.querySelector(".l2").style.background="black";
+      document.querySelector(".l3").style.background="black";
       document.getElementById('div1').classList.remove("noir");
       document.querySelector(".TitreLangage").classList.remove("noir");
       document.querySelector(".TexteLangage").classList.remove("noir");
@@ -123,21 +129,24 @@ var diapo = 0;
 
 
   if(localStorage.hasOwnProperty('FondCouleur')){
-    document.querySelector("body").classList.add("fondbody");
-    document.querySelector("nav").classList.add("FondMenu");
-    document.querySelector(".acceuilMenu").classList.add("FondMenu");
-    document.querySelector(".acceuilMenu").classList.add("traitBlanc");
-    document.querySelector(".langagesMenu").classList.add("FondMenu");
-    document.querySelector(".langagesMenu").classList.add("traitBlanc");
-    document.querySelector(".projetsMenu").classList.add("FondMenu");
-    document.querySelector(".projetsMenu").classList.add("traitBlanc");
-    document.querySelector(".formationsMenu").classList.add("FondMenu");
-    document.querySelector(".formationsMenu").classList.add("traitBlanc");
-    document.querySelector(".stagesMenu").classList.add("FondMenu");
-    document.querySelector(".stagesMenu").classList.add("traitBlanc");
-    document.querySelector(".veilleMenu").classList.add("FondMenu");
-    document.querySelector(".veilleMenu").classList.add("traitBlanc");
-    document.getElementById('FondCouleur').innerHTML="☀️";
+      document.querySelector("body").classList.add("fondbody");
+      document.querySelector("nav").classList.add("FondMenu");
+      document.querySelector(".acceuilMenu").classList.add("FondMenu");
+      document.querySelector(".acceuilMenu").classList.add("traitBlanc");
+      document.querySelector(".langagesMenu").classList.add("FondMenu");
+      document.querySelector(".langagesMenu").classList.add("traitBlanc");
+      document.querySelector(".projetsMenu").classList.add("FondMenu");
+      document.querySelector(".projetsMenu").classList.add("traitBlanc");
+      document.querySelector(".formationsMenu").classList.add("FondMenu");
+      document.querySelector(".formationsMenu").classList.add("traitBlanc");
+      document.querySelector(".stagesMenu").classList.add("FondMenu");
+      document.querySelector(".stagesMenu").classList.add("traitBlanc");
+      document.querySelector(".veilleMenu").classList.add("FondMenu");
+      document.querySelector(".veilleMenu").classList.add("traitBlanc");
+      document.getElementById('FondCouleur').innerHTML="☀️";
+      document.querySelector(".l1").style.background="white";
+      document.querySelector(".l2").style.background="white";
+      document.querySelector(".l3").style.background="white";
       document.getElementById('div1').classList.add("noir");
       document.querySelector(".TitreLangage").classList.add("noir");
       document.querySelector(".TexteLangage").classList.add("noir");
@@ -154,3 +163,15 @@ var diapo = 0;
       document.querySelector(".d1IA").classList.add("noir");
       fond="1";
   }
+
+
+
+
+
+
+
+
+  document.querySelector(".nav-toggler").addEventListener("click", function(){
+    document.querySelector(".nav-toggler").classList.toggle("active")
+    document.querySelector("nav").classList.toggle("active")
+})
