@@ -65,7 +65,7 @@ nav{
   z-index: 1000;
 }
 
-nav a{
+ nav a{
   text-decoration: none;
   color: black;
   margin: 20px;
@@ -2470,7 +2470,28 @@ nav a{
     text-decoration: none;
 }
 
+.traitBlanc::after{
+  top: 20px;
+}
+.langagesMenu::before{
+  top: 20px;
+}
 
+.projetsMenu::before{
+  top: 20px;
+}
+
+.formationsMenu::before{
+  top: 20px;
+}
+
+.stagesMenu::before{
+  top: 20px;
+}
+
+.veilleMenu::before{
+  top: 20px;
+}
 
 
 
