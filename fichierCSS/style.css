@@ -65,7 +65,7 @@ nav{
   z-index: 1000;
 }
 
-  a{
+nav a{
   text-decoration: none;
   color: black;
   margin: 20px;
