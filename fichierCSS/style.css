@@ -2384,8 +2384,146 @@ transition: 0.5s ease-in-out;
 
 /* ********************* Media Query ************************************************************* */
 
+/* debut */
 @media screen and (max-width: 1603px){
   .info{
     height: auto;
   }
+}
+
+/* langage */
+@media screen and (max-width: 457px){
+  .SectionLangage .Dhtml{
+    height: 380px;
+  }
+  .SectionLangage .Dcss{
+    height: 380px;
+  }
+
+  .SectionLangage .Djs{
+    height: 380px;
+  }
+
+  .SectionLangage .Dphp{
+    height: 380px;
+  }
+  .SectionLangage .DcSharp{
+    height: 380px;
+  }
+  .SectionLangage .Dpython{
+    height: 380px;
+  }
+}
+
+
+/* projet */
+
+@media screen and (max-width: 946px){
+
+  .SectionProjet .dProjetZoo{
+   
+    position: relative;
+    width: 360px;
+    height: 650px;
+    margin: 55px;
+    background-color: white;
+    box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+   
+    
+}
+
+.dProjetZoo img{
+    width: 360px;
+}
+.dProjetZoo .titreProjet{
+    text-align: center;
+}
+
+
+.dProjetZoo .BasPageProjet{
+    top: 80px;
+}
+
+.dProjetZoo .TelechargerProjet{
+  left: 15px;
+}
+
+
+.dProjetZoo .ApercueProjet{
+    left: 50px;
+}
+
+
+/* Yummi */
+
+
+.SectionProjet .dProjetYummi{
+   
+  position: relative;
+  width: 360px;
+  height: 650px;
+  margin: 55px;
+  background-color: white;
+  box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+ 
+  
+}
+
+.dProjetYummi img{
+  width: 360px;
+}
+.dProjetYummi .titreProjet{
+  text-align: center;
+}
+
+
+.dProjetYummi .BasPageProjet{
+  top: 10px;
+}
+
+.dProjetYummi .TelechargerProjet{
+left: 15px;
+}
+
+
+.dProjetYummi .ApercueProjet{
+  left: 50px;
+}
+
+/* GACTI */
+
+.SectionProjet .dProjetGacti{
+   
+  position: relative;
+  width: 360px;
+  height: 650px;
+  margin: 55px;
+  background-color: white;
+  box-shadow: 1px 2px 15px 4px rgba(0,0,0,0.79);
+ 
+  
+}
+
+.dProjetGacti img{
+  width: 360px;
+}
+.dProjetGacti .titreProjet{
+  text-align: center;
+}
+
+
+.dProjetGacti .BasPageProjet{
+  top: 0px;
+}
+
+.dProjetGacti .TelechargerProjet{
+left: 15px;
+}
+
+
+.dProjetGacti .ApercueProjet{
+  left: 50px;
+}
+
+
 }
